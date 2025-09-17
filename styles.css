@@ -1,0 +1,27 @@
+body { font-family: Arial; font-size: 16px;} 
+
+h1 {font-family: Georgia, 'Times New Roman', Times, serif; font-size: 24px; font-weight: bold;}
+
+.nav {position:relative; }
+.nav_right {
+    position: absolute;
+    right: 0;
+    display: flex;
+    top:0;
+    gap: 16px;}
+.nav_left {
+    display: flex;
+    gap: 16px;}
+.nav p {margin: 0;}
+
+.item {
+    float: right;
+     width: 30%;
+    margin:1.5%;
+    clear:both;}
+
+.item img {width: 80%; height:auto}
+
+.caption { color: rgb(50, 50, 50); text-align: left;}
+
+p { margin-left: 15%;}
